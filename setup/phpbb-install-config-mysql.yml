@@ -1,0 +1,35 @@
+installer:
+    admin:
+        name: admin
+        password: adminadmin
+        email: admin@example.org
+
+    board:
+        lang: en
+        name: My Board
+        description: My amazing new phpBB board
+
+    database:
+        dbms: mysqli
+        dbhost: localhost
+        dbport: ~
+        dbuser: root
+        dbpasswd: root
+        dbname: scotchbox
+        table_prefix: phpbb_
+
+    email:
+        enabled: false
+        smtp_delivery : ~
+        smtp_host: ~
+        smtp_auth: ~
+        smtp_user: ~
+        smtp_pass: ~
+
+    server:
+        cookie_secure: false
+        server_protocol: http://
+        force_server_vars: false
+        server_name: 192.168.33.10
+        server_port: 80
+        script_path: /
