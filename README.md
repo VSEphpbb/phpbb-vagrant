@@ -6,7 +6,7 @@ A simple Vagrant LAMP stack for running phpBB. This uses [scotch-box](https://gi
 * Download and Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * Clone this GitHub Repository:
 ```sh
-git clone git@github.com:this/repo.git && cd repo-name
+git clone git@github.com:VSEphpbb/phpbb-vagrant.git --branch scotchbox && cd phpbb-vagrant
 ```
 * Clone the phpBB GitHub repository
 ```sh
