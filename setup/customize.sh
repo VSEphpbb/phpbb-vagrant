@@ -7,6 +7,8 @@ php ../composer.phar install
 # Remove old phpBB installation files
 rm -rf /tmp/phpbb.sqlite3
 rm -rf /var/www/phpbb/phpBB/config.php
+mysql -uroot -proot -e "DROP DATABASE IF EXISTS phpbb";
+mysql -uroot -proot -e "CREATE DATABASE phpbb";
 
 # Install phpBB
 php install/phpbbcli.php install /var/www/setup/phpbb-install-config.yml

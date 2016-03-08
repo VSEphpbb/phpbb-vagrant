@@ -10,8 +10,8 @@ installer:
         description: My amazing new phpBB board
 
     database:
-        dbms: postgresql
-        dbhost: localhost
+        dbms: postgres
+        dbhost: 127.0.0.1
         dbport: 5432
         dbuser: root
         dbpasswd: root

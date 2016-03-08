@@ -15,7 +15,7 @@ installer:
         dbport: ~
         dbuser: root
         dbpasswd: root
-        dbname: scotchbox
+        dbname: phpbb
         table_prefix: phpbb_
 
     email:
